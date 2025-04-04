@@ -32,17 +32,6 @@ public class UserMapperImpl implements UserMapper {
     }
 
     @Override
-    public void updateUser(User user, UserUpdateRequest request) {
-        if ( request == null ) {
-            return;
-        }
-
-        user.setPassword( request.getPassword() );
-        user.setFirstName( request.getFirstName() );
-        user.setDob( request.getDob() );
-    }
-
-    @Override
     public UserResponse toUserResponse(User user) {
         if ( user == null ) {
             return null;
@@ -58,5 +47,17 @@ public class UserMapperImpl implements UserMapper {
         userResponse.dob( user.getDob() );
 
         return userResponse.build();
+    }
+
+    @Override
+    public void updateUser(User user, UserUpdateRequest request) {
+        if ( request == null ) {
+            return;
+        }
+
+        user.setPassword( request.getPassword() );
+        user.setFirstName( request.getFirstName() );
+        user.setLastName( request.getLastName() );
+        user.setDob( request.getDob() );
     }
 }
