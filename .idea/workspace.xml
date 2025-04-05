@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600d9a93-6f01-4dd8-aa66-ae9d075a7e88" name="Changes" comment="Bcrypt">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/request/IntrospectRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/response/IntrospectResponse.java" afterDir="false" />
+    <list default="true" id="600d9a93-6f01-4dd8-aa66-ae9d075a7e88" name="Changes" comment="JWT Token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/request/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/request/ApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/response/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/response/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/exception/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/service/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/controller/AuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/request/ApiResponse$ApiResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/request/ApiResponse$ApiResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/request/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/request/ApiResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/response/AuthenticationResponse$AuthenticationResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/response/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/response/AuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/dto/response/AuthenticationResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/exception/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/exception/ErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/service/AuthenticationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lombok-and-mapstruct" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "JWT-Token",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Hung/Desktop/identity-service",
@@ -122,7 +103,7 @@
         <item itemvalue="Application.IdentityServiceApplication" />
         <item itemvalue="Application.IdentityServiceApplication" />
         <item itemvalue="Application.com.devteria.identityservice.IdentityServiceApplication" />
-        <item itemvalue="Application.IdentityServiceApplication" />
+        <item itemvalue="Application.com.devteria.identityservice.IdentityServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -159,12 +140,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743767226774</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JWT Token">
+      <option name="closed" value="true" />
+      <created>1743854237238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743854237238</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JWT Token">
+      <option name="closed" value="true" />
+      <created>1743854349206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743854349206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lombok-and-mapstruct" />
-    <option name="LAST_COMMIT_MESSAGE" value="lombok-and-mapstruct" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Bcrypt" />
+    <MESSAGE value="JWT Token" />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT Token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
