@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="600d9a93-6f01-4dd8-aa66-ae9d075a7e88" name="Changes" comment="JWT Token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/request/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/dto/request/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devteria/identityservice/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devteria/identityservice/controller/AuthenticationController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IdentityServiceApplication" />
         <item itemvalue="Application.com.devteria.identityservice.IdentityServiceApplication" />
+        <item itemvalue="Application.IdentityServiceApplication" />
         <item itemvalue="Application.com.devteria.identityservice.IdentityServiceApplication" />
         <item itemvalue="Application.IdentityServiceApplication" />
         <item itemvalue="Application.IdentityServiceApplication" />
@@ -185,5 +186,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/identity_service$com_devteria_identityservice_exception_in_identity_service.ic" NAME="com.devteria.identityservice.exception in identity-service Coverage Results" MODIFIED="1743960692287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.devteria.identityservice.exception.*</FILTER>
+    </SUITE>
   </component>
 </project>
